@@ -1,0 +1,314 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: #f5f5f7;
+  background-color: #000000;
+  line-height: 1.5;
+}
+
+/* Top Navigation Bar */
+.navbar {
+  background-color: #111111;
+  border-bottom: 1px solid #2c2c2e;
+  padding: 12px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.nav-logo-img {
+  width: 34px;
+  height: 34px;
+  object-fit: contain;
+  border-radius: 6px;
+}
+
+.navbar nav a {
+  margin-left: 18px;
+  text-decoration: none;
+  color: #d1d1d6;
+  font-size: 14px;
+}
+
+.navbar nav a:hover {
+  color: #2997ff;
+}
+
+/* Campus Map Section at Top */
+.map-section {
+  background-color: #000000;
+  text-align: center;
+  padding: 45px 20px;
+  border-bottom: 8px solid #1c1c1e;
+}
+
+.map-section h1 {
+  font-size: 46px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 6px;
+}
+
+.map-section p {
+  font-size: 20px;
+  color: #a1a1a6;
+  margin-bottom: 28px;
+}
+
+.campus-map {
+  width: 92%;
+  max-width: 980px;
+  border-radius: 16px;
+  border: 1px solid #2c2c2e;
+}
+
+/* Full-Page Hero Sections */
+.hero-box {
+  min-height: 92vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 50px 20px;
+  border-bottom: 8px solid #1c1c1e;
+}
+
+.hero-box h2 {
+  font-size: 44px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 8px;
+}
+
+.hero-box p {
+  font-size: 20px;
+  color: #a1a1a6;
+  max-width: 620px;
+  margin-bottom: 22px;
+}
+
+/* Dark Background Shades */
+.dark-bg {
+  background-color: #000000;
+}
+
+.charcoal-bg {
+  background-color: #111111;
+}
+
+/* Full-Section Spread Background Image for E-Library */
+.bg-elibrary {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../assets/images/elibrary.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bg-elibrary p {
+  color: #e5e5ea;
+}
+
+/* Centered Image Sizes Inside Hero Sections */
+.hero-banner {
+  width: 90%;
+  max-width: 660px;
+  margin-top: 28px;
+  border-radius: 14px;
+}
+
+.hero-icon {
+  width: 170px;
+  height: 170px;
+  object-fit: contain;
+  margin-top: 28px;
+  border-radius: 28px;
+}
+
+.hero-logo {
+  width: 260px;
+  margin-top: 28px;
+  background-color: #ffffff;
+  padding: 14px 20px;
+  border-radius: 14px;
+}
+
+/* Uniform Pill Buttons */
+.btn-group {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.btn {
+  padding: 10px 22px;
+  border-radius: 22px;
+  text-decoration: none;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.blue-btn {
+  background-color: #0071e3;
+  color: #ffffff;
+  border: 1px solid #0071e3;
+}
+
+.border-btn {
+  background-color: transparent;
+  color: #2997ff;
+  border: 1px solid #2997ff;
+}
+
+/* 4-Block Grid Section */
+.four-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  padding: 12px;
+  background-color: #000000;
+}
+
+.small-box {
+  min-height: 48vh;
+  border: 1px solid #2c2c2e;
+  border-radius: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 36px 20px;
+}
+
+.small-box h3 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 8px;
+}
+
+.small-box p {
+  font-size: 16px;
+  color: #a1a1a6;
+  margin-bottom: 18px;
+}
+
+.grid-icon {
+  width: 110px;
+  height: 110px;
+  object-fit: contain;
+  margin-top: 22px;
+  border-radius: 20px;
+}
+
+.grid-logo {
+  width: 180px;
+  margin-top: 22px;
+  background-color: #ffffff;
+  padding: 10px 14px;
+  border-radius: 12px;
+}
+
+.grid-banner {
+  width: 85%;
+  max-width: 340px;
+  margin-top: 22px;
+  border-radius: 10px;
+}
+
+/* Individual Info Pages */
+.info-page {
+  min-height: 90vh;
+  background-color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 20px;
+}
+
+.info-card {
+  background-color: #111111;
+  border: 1px solid #2c2c2e;
+  border-radius: 16px;
+  padding: 36px;
+  max-width: 650px;
+  width: 100%;
+  text-align: center;
+}
+
+.info-img {
+  max-width: 240px;
+  max-height: 150px;
+  object-fit: contain;
+  margin-bottom: 18px;
+  border-radius: 12px;
+  background-color: #ffffff;
+  padding: 8px;
+}
+
+.info-card h1 {
+  font-size: 32px;
+  color: #ffffff;
+  margin-bottom: 12px;
+}
+
+.info-card p {
+  font-size: 17px;
+  color: #d1d1d6;
+  margin-bottom: 22px;
+}
+
+.wifi-details {
+  text-align: left;
+  background-color: #1c1c1e;
+  padding: 18px;
+  border-radius: 10px;
+  margin-bottom: 22px;
+}
+
+.wifi-details p {
+  font-size: 15px;
+  color: #e5e5ea;
+  margin-bottom: 10px;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .four-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-box h2 {
+    font-size: 32px;
+  }
+}

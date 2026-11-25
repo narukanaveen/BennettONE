@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Campus Wi-Fi Passwords - BennettONE</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <a href="index.html" class="logo">
+      <img src="assets/images/bennettone-logo.png" alt="BennettONE Logo" class="nav-logo-img">
+      <span>BennettONE</span>
+    </a>
+    <nav>
+      <a href="index.html">Back to Home</a>
+    </nav>
+  </header>
+
+  <main class="info-page">
+    <div class="info-card">
+      <img src="assets/images/wifi.jpg" alt="Wi-Fi Icon" class="info-img">
+      <h1>Campus Wi-Fi Information</h1>
+      <p>Use the following written instructions to connect your laptop or mobile phone to Bennett University Wi-Fi networks:</p>
+
+      <div class="wifi-details">
+        <p><strong>1. Academic Blocks (A, B, M, N, P, Q):</strong> Connect to <b>Bennett-Student</b> and sign in with your student enrollment ID and portal password.</p>
+        <p><strong>2. Hostel Blocks (C &amp; D):</strong> Select your hostel floor Wi-Fi network and log in using your allotted hostel Wi-Fi credentials.</p>
+        <p id="wifiNote" style="display: none;"><strong>Tip:</strong> If Wi-Fi fails to connect after a password reset, click "Forget Network" and enter your updated password again.</p>
+      </div>
+
+      <div class="btn-group">
+        <button onclick="toggleTip()" id="tipBtn" class="btn blue-btn">Show Connection Tip</button>
+        <a href="index.html" class="btn border-btn">Back to Home</a>
+      </div>
+    </div>
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
