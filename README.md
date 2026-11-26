@@ -15,22 +15,6 @@ BennettONE brings all everyday Bennett University student portals, campus map, m
 - **Outlook Student Mail** — Official `@bennett.edu.in` inbox and viva bookings
 - **Quick Utilities (4-Block Grid)** — `r/BennettUniversityGN`, Bennett LinkedIn, Campus Wi-Fi Passwords guide, and 9.4 SGPA Calculator
 
-## Project Structure
-```
-BennettONE/
-├── index.html          # Main landing page with Campus Map, portal sections & 4-block grid
-├── lms.html            # Individual portal info pages (lms, camu, elibrary, website, mess,
-├── camu.html           #   placement, outlook, subreddit, linkedin, wifi, sgpa)
-├── ...
-├── css/
-│   └── style.css       # Dark theme styling with Flexbox, CSS Grid & mobile responsiveness
-├── js/
-│   └── script.js       # External link click logging and Wi-Fi connection tip toggle
-├── assets/
-│   └── images/         # Compressed campus map, logos, and portal graphics
-└── README.md
-```
-
 ## Course & Team Details
 - **Course:** Web Development (`2026FSWD100`) — B.Tech CSE (Batch 2026–2030)
 - **Faculty:** Dr. Manish Kumar
