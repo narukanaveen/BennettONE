@@ -1,4 +1,3 @@
-/* Basic Reset */
 * {
   margin: 0;
   padding: 0;
@@ -16,7 +15,6 @@ body {
   line-height: 1.5;
 }
 
-/* Top Navigation Bar */
 .navbar {
   background-color: #111111;
   border-bottom: 1px solid #2c2c2e;
@@ -57,7 +55,6 @@ body {
   color: #2997ff;
 }
 
-/* Campus Map Section at Top */
 .map-section {
   background-color: #000000;
   text-align: center;
@@ -85,7 +82,6 @@ body {
   border: 1px solid #2c2c2e;
 }
 
-/* Full-Page Hero Sections */
 .hero-box {
   min-height: 92vh;
   display: flex;
@@ -111,7 +107,6 @@ body {
   margin-bottom: 22px;
 }
 
-/* Dark Background Shades */
 .dark-bg {
   background-color: #000000;
 }
@@ -120,7 +115,6 @@ body {
   background-color: #111111;
 }
 
-/* Full-Section Spread Background Image for E-Library */
 .bg-elibrary {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../assets/images/elibrary.jpg");
   background-size: cover;
@@ -132,7 +126,6 @@ body {
   color: #e5e5ea;
 }
 
-/* Centered Image Sizes Inside Hero Sections */
 .hero-banner {
   width: 90%;
   max-width: 660px;
@@ -156,7 +149,6 @@ body {
   border-radius: 14px;
 }
 
-/* Uniform Pill Buttons */
 .btn-group {
   display: flex;
   gap: 12px;
@@ -184,7 +176,6 @@ body {
   border: 1px solid #2997ff;
 }
 
-/* 4-Block Grid Section */
 .four-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -241,7 +232,6 @@ body {
   border-radius: 10px;
 }
 
-/* Individual Info Pages */
 .info-page {
   min-height: 90vh;
   background-color: #000000;
@@ -297,7 +287,6 @@ body {
   margin-bottom: 10px;
 }
 
-/* Mobile Responsive */
 @media (max-width: 768px) {
   .navbar {
     flex-direction: column;
